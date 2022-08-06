@@ -231,9 +231,8 @@ header .row-item .learn-more {
 }
 
 header .row-item .learn-more:hover {
+  color: #3131c6;
   background-color: #fff;
-  color: #0B0706;
-  border: 0.1rem solid #0B0706;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
