@@ -1,0 +1,173 @@
+@media screen and(max-width: 480px) {
+  header {
+    padding: 4rem 0;
+
+    h1 {
+      margin-top: 2rem;
+      font-size: 2em;
+    }
+
+    h2 {
+      font-size: 1.2em;
+      margin: 1.2rem 0;
+    }
+
+    .row-item {
+      margin-top: 2rem;
+
+      .learn-more {
+        padding: 1rem 2rem;
+
+        margin-right: 0.8rem;
+        margin-left: 0.8rem;
+        margin-bottom: 1rem;
+      }
+      .beta-signup {
+        padding: 0.8rem 1.8rem;
+        margin-right: 0.8rem;
+        margin-left: 0.8rem;
+      }
+    }
+  }
+
+  .promote-engage {
+    padding: 4rem 0;
+    .heading {
+      width: 90%;
+      margin: 0 auto;
+
+      h2 {
+        font-weight: bold;
+        font-size: 1.5em;
+      }
+    }
+
+    .card-container {
+      margin: 2rem 0;
+
+      width: 100%;
+      height: 65rem;
+      @include flexItem(row, space-around);
+      align-items: center;
+
+      .engage-card {
+        @include flexItem(row, space-around);
+        align-items: center;
+        img {
+          width: 80%;
+        }
+      }
+
+      .engage-card:nth-child(2) {
+        transform: translateY(0rem);
+      }
+    }
+  }
+
+  .security {
+    padding: 4rem 0;
+
+    h2 {
+      font-size: 1.3em;
+    }
+
+    p {
+      font-size: 1em;
+      margin-top: 1.1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .join {
+      margin: 4rem 0 2rem 0;
+    }
+
+    .border {
+      .row-item {
+        @include flexItem(row, flex-start);
+        align-items: center;
+        img {
+          width: 2rem;
+        }
+
+        h5 {
+          margin-left: 1rem;
+          font-size: 1em;
+        }
+      }
+    }
+  }
+
+  .multiple-ways-to-earn {
+    width: 93%;
+    padding: 4rem 0;
+
+    .row-item {
+      @include flexItem(row, space-between);
+      align-items: center;
+
+      .line {
+        width: 10%;
+        height: 0.4rem;
+      }
+
+      h2 {
+        font-size: 1.3em;
+      }
+    }
+
+    .container-row {
+      margin: 3rem 0;
+
+      position: relative;
+      height: 50rem;
+      width: 100%;
+
+      .card-one,
+      .card-two {
+        height: 24rem;
+        width: 100%;
+
+        position: relative;
+
+        .row-item {
+          @include flexItem(row, space-between);
+          align-items: center;
+
+          h1 {
+            margin: 1rem 1rem;
+            font-size: 5em;
+            color: rgba(0, 0, 0, 0.4);
+            font-weight: bolder;
+          }
+
+          .box {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 5.5rem;
+            height: 5.5rem;
+          }
+        }
+
+        h4 {
+          font-weight: bold;
+          padding-left: 1rem;
+        }
+        p {
+          padding: 0 1rem;
+          font-size: 0.9em;
+        }
+      }
+
+      .card-two {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+
+  footer {
+    padding: 4rem 0 2rem 0;
+  }
+}
