@@ -11,7 +11,7 @@
             <img src="@/assets/icons/person.svg" class="img-fluid" alt="" />
           </div>
 
-          <div class="col-lg-6 col-12">
+          <div class="col-lg-7 col-12">
             <h1 class="text-center">Welcome To Dripada</h1>
             <h2 class="text-center">Complete Tasks and Earn ADA</h2>
             <div class="row-item">
@@ -23,6 +23,28 @@
       </div>
     </header>
 
+    <div class="our-mission">
+      <div class="container-fluid">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-6 col-sm-7 col-12">
+            <h2>
+              Our mission is to build your business with our community through a
+              Creative method of engagement.
+            </h2>
+            <div class="learn-engage-earn">
+              <h2>Learn, Engage And Earn</h2>
+              <p>
+                Learn about new and innovative projects on the Cardano
+                blockchain and get rewarded for that.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-5 col-12">
+            <img src="@/assets/icons/phone.svg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="promote-engage">
       <div class="text-center heading">
         <h2>

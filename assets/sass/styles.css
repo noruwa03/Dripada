@@ -101,8 +101,18 @@ header .row-item .learn-more {
   background-color: #3131c6;
   color: #fff;
   border-radius: 5rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-right: 1rem;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+header .row-item .learn-more:hover {
+  background-color: #fff;
+  color: #0B0706;
+  border: 0.1rem solid #0B0706;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 header .row-item .beta-signup {
@@ -110,8 +120,43 @@ header .row-item .beta-signup {
   border: 0.1rem solid #3131c6;
   color: #0B0706;
   border-radius: 5rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-left: 1rem;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+header .row-item .beta-signup:hover {
+  background-color: #3131c6;
+  color: #fff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.our-mission {
+  padding: 5rem 0;
+}
+
+.our-mission h2 {
+  margin-left: 2rem;
+  color: #3131c6;
+  font-weight: 600;
+}
+
+.our-mission .learn-engage-earn {
+  margin-top: 5rem;
+}
+
+.our-mission .learn-engage-earn h2 {
+  margin-left: 2rem;
+  color: #0B0706;
+}
+
+.our-mission .learn-engage-earn p {
+  margin-top: 1.3rem;
+  margin-left: 2rem;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 .promote-engage {
@@ -588,6 +633,25 @@ footer p {
     padding: 1rem 2.3rem;
     margin-left: 1rem;
   }
+  .our-mission {
+    padding: 4rem 0;
+  }
+  .our-mission h2 {
+    margin-left: 0;
+    font-size: 1.5em;
+  }
+  .our-mission .learn-engage-earn {
+    margin-top: 3rem;
+  }
+  .our-mission .learn-engage-earn h2 {
+    margin-left: 0;
+    font-size: 1.3em;
+  }
+  .our-mission .learn-engage-earn p {
+    margin-top: 1rem;
+    margin-left: 0;
+    font-size: 1.1em;
+  }
   .promote-engage {
     padding: 4rem 0;
   }
@@ -772,6 +836,26 @@ footer p {
   header .row-item .beta-signup {
     padding: 1rem 2.3rem;
     margin-left: 1rem;
+  }
+  .our-mission {
+    padding: 4rem 0;
+  }
+  .our-mission h2 {
+    margin-left: 0;
+    font-size: 1.4em;
+  }
+  .our-mission .learn-engage-earn {
+    margin-top: 2.3rem;
+  }
+  .our-mission .learn-engage-earn h2 {
+    margin-left: 0;
+    font-size: 1.3em;
+  }
+  .our-mission .learn-engage-earn p {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 3rem;
+    font-size: 1em;
   }
   .promote-engage {
     padding: 5rem 0;
@@ -997,6 +1081,26 @@ footer p {
     padding: 0.8rem 1.8rem;
     margin-right: 0.8rem;
     margin-left: 0.8rem;
+  }
+  .our-mission {
+    padding: 4rem 0;
+  }
+  .our-mission h2 {
+    margin-left: 0;
+    font-size: 1.4em;
+  }
+  .our-mission .learn-engage-earn {
+    margin-top: 2.3rem;
+  }
+  .our-mission .learn-engage-earn h2 {
+    margin-left: 0;
+    font-size: 1.3em;
+  }
+  .our-mission .learn-engage-earn p {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 3rem;
+    font-size: 1em;
   }
   .promote-engage {
     padding: 4rem 0;
