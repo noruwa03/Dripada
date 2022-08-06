@@ -4,6 +4,7 @@
       <Title>Dripada</Title>
       <Meta name="description" content="Dripada site" />
     </Head>
+    <NavigationBar />
     <header>
       <div class="container-lg">
         <div class="row align-items-start justify-content-between">
@@ -11,7 +12,7 @@
             <img src="@/assets/icons/person.svg" class="img-fluid" alt="" />
           </div>
 
-          <div class="col-lg-7 col-12">
+          <div class="col-lg-6 col-12">
             <h1 class="text-center">Welcome To Dripada</h1>
             <h2 class="text-center">Complete Tasks and Earn ADA</h2>
             <div class="row-item">
@@ -161,6 +162,11 @@
   </div>
 </template>
 <script setup>
+const menuHandler = () => {
+  const navItem = document.querySelector(".nav-item-list");
+
+  navItem.classList.toggle("active");
+};
 </script>
 
 <style>
