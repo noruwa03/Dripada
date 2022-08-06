@@ -20,9 +20,9 @@
               <span><img src="@/assets/icons/dropdown.svg" alt="" /></span>
             </a>
             <ul class="dropdown">
-              <li @click="removeNavbar"><a href="">Free rate</a></li>
-              <li @click="removeNavbar"><a href="">Discount rate</a></li>
-              <li @click="removeNavbar"><a href="">Airdrop</a></li>
+              <li @click="removeNavbar"><a href="">Follow To Earn</a></li>
+              <li @click="removeNavbar"><a href="">Comment To Earn</a></li>
+              <li @click="removeNavbar"><a href="">Like To Earn</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -31,9 +31,9 @@
               <span><img src="@/assets/icons/dropdown.svg" alt="" /></span
             ></NuxtLink>
             <ul class="dropdown">
-              <li @click="removeNavbar"><a href="">About us</a></li>
-              <li @click="removeNavbar"><a href="">Services</a></li>
-              <li @click="removeNavbar"><a href="">Offers</a></li>
+              <li @click="removeNavbar"><a href="">About Us</a></li>
+              <li @click="removeNavbar"><a href="">Career</a></li>
+              <li @click="removeNavbar"><a href="">Press</a></li>
             </ul>
           </li>
           <li @click="removeNavbar" class="nav-item">
