@@ -1,27 +1,18 @@
 @font-face {
-  
-
   src: url("@/assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
   font-family: "Montserrat";
-
 }
 
 @font-face {
-  
-
-  src: url("@/assets/fonts/inter.ttf") format("truetype");
+  src: url("@/assets/fonts/Inter-Regular.ttf") format("truetype");
   font-family: "Inter";
-
 }
 
 @font-face {
-
-  src: url("@/assets/fonts/MuseoModerno-VariableFont_wght.ttf") format("truetype");
+  src: url("@/assets/fonts/MuseoModerno-VariableFont_wght.ttf")
+    format("truetype");
   font-family: "MuseoModerno";
-
 }
-
-
 
 $montserrat: "Montserrat";
 $inter: "Inter";
