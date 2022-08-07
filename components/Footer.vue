@@ -72,7 +72,7 @@
                 <img src="@/assets/icons/telegram.svg" alt="Telegram" />
               </NuxtLink>
               <NuxtLink
-                to="https://instagram.com/dripdadacommunity"
+                to="https://instagram.com/dripadacommunity"
                 target="_blank"
               >
                 <img src="@/assets/icons/instagram.svg" alt="Instagram" />
