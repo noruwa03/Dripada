@@ -9,7 +9,11 @@
       <div class="container-lg">
         <div class="row align-items-start justify-content-between">
           <div class="col-lg-5 col-12">
-            <img src="@/assets/icons/person.svg" class="img-fluid" alt="" />
+            <img
+              src="@/assets/icons/person.svg"
+              class="img-fluid"
+              alt="Person"
+            />
           </div>
 
           <div class="col-lg-6 col-12">
@@ -17,7 +21,7 @@
             <h2 class="text-center">Complete Tasks and Earn ADA</h2>
             <div class="row-item">
               <a href="" class="learn-more">Learn more</a>
-              <a href="" class="beta-signup">Beta SignUp</a>
+              <a href="" class="start-earning">Start Earning</a>
             </div>
           </div>
         </div>
@@ -41,7 +45,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-sm-5 col-12">
-            <img src="@/assets/icons/phone.svg" class="img-fluid" alt="" />
+            <img src="@/assets/icons/phone.svg" class="img-fluid" alt="Phone" />
           </div>
         </div>
       </div>
@@ -56,13 +60,13 @@
 
       <div class="card-container">
         <div class="engage-card">
-          <img src="@/assets/icons/engage-card-one.svg" alt="" />
+          <img src="@/assets/icons/engage-card-one.svg" alt="Avaliable Offer" />
         </div>
         <div class="engage-card">
-          <img src="@/assets/icons/engage-card-two.svg" alt="" />
+          <img src="@/assets/icons/engage-card-two.svg" alt="Commission" />
         </div>
         <div class="engage-card">
-          <img src="@/assets/icons/engage-card-three.svg" alt="" />
+          <img src="@/assets/icons/engage-card-three.svg" alt="Earning" />
         </div>
       </div>
     </div>
@@ -81,7 +85,11 @@
             </p>
           </div>
           <div class="col-lg-5 col-sm-5 col-12 text-lg-start text-center">
-            <img src="@/assets/icons/security.svg" class="img-fluid" alt="" />
+            <img
+              src="@/assets/icons/security.svg"
+              class="img-fluid"
+              alt="Security"
+            />
           </div>
         </div>
 
@@ -93,7 +101,7 @@
           <div class="col-lg-5 col-sm-6 col-12">
             <div class="border">
               <div class="row-item">
-                <img src="@/assets/icons/visit.svg" alt="" />
+                <img src="@/assets/icons/visit.svg" alt="Visit" />
                 <h5>Visit Dripada website</h5>
               </div>
             </div>
@@ -101,7 +109,10 @@
           <div class="col-lg-5 col-sm-6 col-12">
             <div class="border">
               <div class="row-item">
-                <img src="@/assets/icons/choose_an_offer.svg" alt="" />
+                <img
+                  src="@/assets/icons/choose_an_offer.svg"
+                  alt="Choose Offer"
+                />
                 <h5>Choose an offer</h5>
               </div>
             </div>
@@ -109,7 +120,10 @@
           <div class="col-lg-5 col-sm-6 col-12">
             <div class="border">
               <div class="row-item">
-                <img src="@/assets/icons/complete_task.svg" alt="" />
+                <img
+                  src="@/assets/icons/complete_task.svg"
+                  alt="Complete Task"
+                />
                 <h5>Complete Tasks</h5>
               </div>
             </div>
@@ -117,7 +131,7 @@
           <div class="col-lg-5 col-sm-6 col-12">
             <div class="border">
               <div class="row-item">
-                <img src="@/assets/icons/get_rewarded.svg" alt="" />
+                <img src="@/assets/icons/get_rewarded.svg" alt="Rewarded" />
                 <h5>Get Rewarded In ADA</h5>
               </div>
             </div>

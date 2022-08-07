@@ -208,7 +208,7 @@ nav .nav-item-container .nav-item-list .nav-item .nav-link span {
   margin-left: 0.5rem;
 }
 
-nav .nav-item-container .nav-bar-beta-signup {
+nav .nav-item-container .nav-bar-start-earning {
   padding: 1rem 3rem;
   background-color: #3131c6;
   color: #fff;
@@ -219,7 +219,7 @@ nav .nav-item-container .nav-bar-beta-signup {
   transition: 0.3s ease;
 }
 
-nav .nav-item-container .nav-bar-beta-signup:hover {
+nav .nav-item-container .nav-bar-start-earning:hover {
   color: #3131c6;
   background-color: #fff;
   -webkit-transition: 0.3s ease;
@@ -284,7 +284,7 @@ header .row-item .learn-more:hover {
   transition: 0.3s ease;
 }
 
-header .row-item .beta-signup {
+header .row-item .start-earning {
   padding: 1rem 3rem;
   border: 0.1rem solid #3131c6;
   color: #0B0706;
@@ -295,7 +295,7 @@ header .row-item .beta-signup {
   transition: 0.3s ease;
 }
 
-header .row-item .beta-signup:hover {
+header .row-item .start-earning:hover {
   background-color: #3131c6;
   color: #fff;
   -webkit-transition: 0.3s ease;
@@ -997,7 +997,7 @@ footer p {
   nav .nav-item-container .nav-item-list .nav-item .nav-link span {
     margin-left: 0.5rem;
   }
-  nav .nav-item-container .nav-bar-beta-signup {
+  nav .nav-item-container .nav-bar-start-earning {
     display: none;
   }
   nav .nav-item-container .menu {
@@ -1092,7 +1092,7 @@ footer p {
     padding: 1.2rem 2.5rem;
     margin-right: 1rem;
   }
-  header .row-item .beta-signup {
+  header .row-item .start-earning {
     padding: 1rem 2.3rem;
     margin-left: 1rem;
   }
@@ -1310,7 +1310,7 @@ footer p {
     padding: 1.2rem 2.5rem;
     margin-right: 1rem;
   }
-  header .row-item .beta-signup {
+  header .row-item .start-earning {
     padding: 1rem 2.3rem;
     margin-left: 1rem;
   }
@@ -1560,7 +1560,7 @@ footer p {
     margin-left: 0.8rem;
     margin-bottom: 1rem;
   }
-  header .row-item .beta-signup {
+  header .row-item .start-earning {
     padding: 0.8rem 1.8rem;
     margin-right: 0.8rem;
     margin-left: 0.8rem;

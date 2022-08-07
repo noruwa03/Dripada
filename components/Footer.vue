@@ -5,21 +5,57 @@
         <div class="row align-item-start justify-content-between">
           <div class="col-lg-2 col-sm-3 col-6">
             <h4>Product</h4>
-            <a class="footer-link" href="">Follow To Earn</a>
-            <a class="footer-link" href="">Comment To Earn</a>
-            <a class="footer-link" href="">Like To Earn</a>
+            <NuxtLink
+              class="footer-link"
+              to="https://resources.dripada.com/products/follow-to-earn"
+              target="_blank"
+            >
+              Follow To Earn
+            </NuxtLink>
+            <NuxtLink
+              class="footer-link"
+              to="https://resources.dripada.com/products/comment-to-earn"
+              target="_blank"
+            >
+              Comment To Earn
+            </NuxtLink>
+            <NuxtLink
+              class="footer-link"
+              to="https://resources.dripada.com/products/like-to-earn"
+              target="_blank"
+            >
+              Like To Earn
+            </NuxtLink>
           </div>
           <div class="col-lg-2 col-sm-3 col-6">
             <h4>Resources</h4>
-            <a class="footer-link" href="">What is DripAda</a>
-            <a class="footer-link" href="">How it works</a>
-            <a class="footer-link" href="">DOCS</a>
+            <NuxtLink
+              class="footer-link"
+              to="https://resources.dripada.com"
+              target="_blank"
+            >
+              What is DripAda
+            </NuxtLink>
+            <NuxtLink class="footer-link"> How it works </NuxtLink>
+            <NuxtLink class="footer-link"> DOCS </NuxtLink>
           </div>
           <div class="col-lg-2 col-sm-3 col-12">
             <h4>Company</h4>
             <a class="footer-link" @click="aboutUs">About Us</a>
-            <a class="footer-link" href="">Career</a>
-            <a class="footer-link" href="">Press</a>
+            <NuxtLink
+              class="footer-link"
+              to="https://resources.dripada.com/career"
+              target="_blank"
+            >
+              Career
+            </NuxtLink>
+            <NuxtLink
+              class="footer-link"
+              to="https://resources.dripada.com/press"
+              target="_blank"
+            >
+              Press
+            </NuxtLink>
           </div>
           <div class="col-lg-4 col-sm-8 col-12">
             <h4 class="newsletter">Newsletter</h4>
@@ -29,15 +65,24 @@
             </div>
 
             <div class="social-media">
-              <a href=""><img src="@/assets/icons/twitter.svg" alt="" /></a>
-              <a href=""><img src="@/assets/icons/telegram.svg" alt="" /></a>
-              <a href=""><img src="@/assets/icons/email.svg" alt="" /></a>
+              <NuxtLink to="https://twitter.com/drip_ada" target="_blank">
+                <img src="@/assets/icons/twitter.svg" alt="Twitter" />
+              </NuxtLink>
+              <NuxtLink to="https://t.me/dripadacommunity" target="_blank">
+                <img src="@/assets/icons/telegram.svg" alt="Telegram" />
+              </NuxtLink>
+              <NuxtLink
+                to="https://instagram.com/dripdadacommunity"
+                target="_blank"
+              >
+                <img src="@/assets/icons/instagram.svg" alt="Instagram" />
+              </NuxtLink>
             </div>
           </div>
         </div>
 
         <div class="text-center footer-logo">
-          <img src="@/assets/icons/footer-logo.svg" alt="" />
+          <img src="@/assets/icons/footer-logo.svg" alt="Footer Logo" />
         </div>
         <p class="text-center">&copy; {{ footerDate }} All Rights Reserved</p>
       </div>

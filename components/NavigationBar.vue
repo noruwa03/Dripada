@@ -17,31 +17,75 @@
           <li class="nav-item">
             <a class="nav-link" @click="closeDropdown"
               >Products
-              <span><img src="@/assets/icons/dropdown.svg" alt="" /></span>
+              <span
+                ><img src="@/assets/icons/dropdown.svg" alt="Dropdown Icon"
+              /></span>
             </a>
             <ul class="dropdown">
-              <li @click="removeNavbar"><a href="">Follow To Earn</a></li>
-              <li @click="removeNavbar"><a href="">Comment To Earn</a></li>
-              <li @click="removeNavbar"><a href="">Like To Earn</a></li>
+              <li @click="removeNavbar">
+                <NuxtLink
+                  to="https://resources.dripada.com/products/follow-to-earn"
+                  target="_blank"
+                >
+                  Follow To Earn
+                </NuxtLink>
+              </li>
+              <li @click="removeNavbar">
+                <NuxtLink
+                  to="https://resources.dripada.com/products/comment-to-earn"
+                  target="_blank"
+                >
+                  Comment To Earn
+                </NuxtLink>
+              </li>
+              <li @click="removeNavbar">
+                <NuxtLink
+                  to="https://resources.dripada.com/products/like-to-earn"
+                  target="_blank"
+                >
+                  Like To Earn
+                </NuxtLink>
+              </li>
             </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" @click="closeDropdown2"
               >Company
-              <span><img src="@/assets/icons/dropdown.svg" alt="" /></span
+              <span
+                ><img
+                  src="@/assets/icons/dropdown.svg"
+                  alt="Dropdown Icon" /></span
             ></a>
             <ul class="dropdown2">
               <li @click="removeNavbar"><a @click="aboutUs">About Us</a></li>
-              <li @click="removeNavbar"><a href="">Career</a></li>
-              <li @click="removeNavbar"><a href="">Press</a></li>
+              <li @click="removeNavbar">
+                <NuxtLink
+                  to="https://resources.dripada.com/career"
+                  target="_blank"
+                >
+                  Career
+                </NuxtLink>
+              </li>
+              <li @click="removeNavbar">
+                <NuxtLink
+                  to="https://resources.dripada.com/press"
+                  target="_blank"
+                >
+                  Press
+                </NuxtLink>
+              </li>
             </ul>
           </li>
           <li @click="removeNavbar" class="nav-item">
-            <NuxtLink class="nav-link" to="">DRP Token</NuxtLink>
+            <NuxtLink
+              class="nav-link"
+              to="https://resources.dripada.com/tokenomics"
+              >DRP Token</NuxtLink
+            >
           </li>
         </ul>
 
-        <a href="" class="nav-bar-beta-signup">Beta SignUp</a>
+        <a href="" class="nav-bar-start-earning">Start Earning</a>
         <div @click="menuHandler" class="menu">
           <span></span>
           <span></span>
