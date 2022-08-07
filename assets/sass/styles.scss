@@ -95,6 +95,7 @@ nav {
                 }
                 a {
                   color: $black;
+                  cursor: pointer;
                 }
               }
             }
@@ -118,6 +119,7 @@ nav {
                 }
                 a {
                   color: $black;
+                  cursor: pointer;
                 }
               }
             }
@@ -202,11 +204,11 @@ header {
 
   h2 {
     font-weight: 600;
-    margin: 2rem 0;
+    margin: 3.6rem 0;
   }
 
   .row-item {
-    margin-top: 2rem;
+    margin-top: 3.5rem;
     @include flexItem(row, center);
 
     .learn-more {
@@ -479,12 +481,13 @@ footer {
     color: $white;
     font-family: $inter;
   }
-  a {
+  .footer-link {
     display: block;
     margin: 1rem 0;
     color: $white;
     opacity: 0.7;
     font-family: $museoModerno;
+    cursor: pointer;
 
     &:hover {
       color: #ff5151;

@@ -11,7 +11,7 @@
 
         <ul class="nav-item-list">
           <li @click="removeNavbar" class="nav-item">
-            <a class="nav-link" href="">About</a>
+            <a class="nav-link" @click="aboutUs">About</a>
           </li>
 
           <li class="nav-item">
@@ -31,7 +31,7 @@
               <span><img src="@/assets/icons/dropdown.svg" alt="" /></span
             ></a>
             <ul class="dropdown2">
-              <li @click="removeNavbar"><a href="">About Us</a></li>
+              <li @click="removeNavbar"><a @click="aboutUs">About Us</a></li>
               <li @click="removeNavbar"><a href="">Career</a></li>
               <li @click="removeNavbar"><a href="">Press</a></li>
             </ul>
@@ -82,6 +82,10 @@ const closeDropdown2 = () => {
   dropdown2.classList.toggle("active");
 };
 
+const aboutUs = () => {
+  const elToView = document.getElementById("about-us");
+  elToView.scrollIntoView();
+};
 </script>
 
 <style>

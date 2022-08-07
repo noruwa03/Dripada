@@ -139,6 +139,7 @@ nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown li:hover a {
 
 nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown li a {
   color: #0B0706;
+  cursor: pointer;
 }
 
 nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown2 {
@@ -165,6 +166,7 @@ nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown2 li:hover a {
 
 nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown2 li a {
   color: #0B0706;
+  cursor: pointer;
 }
 
 nav .nav-item-container .nav-item-list .nav-item ul.dropdown {
@@ -242,11 +244,11 @@ header h1 {
 
 header h2 {
   font-weight: 600;
-  margin: 2rem 0;
+  margin: 3.6rem 0;
 }
 
 header .row-item {
-  margin-top: 2rem;
+  margin-top: 3.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -641,15 +643,16 @@ footer h4 {
   font-family: "Inter";
 }
 
-footer a {
+footer .footer-link {
   display: block;
   margin: 1rem 0;
   color: #fff;
   opacity: 0.7;
   font-family: "MuseoModerno";
+  cursor: pointer;
 }
 
-footer a:hover {
+footer .footer-link:hover {
   color: #ff5151;
 }
 
@@ -1538,7 +1541,7 @@ footer p {
     width: 9.7rem;
   }
   header {
-    padding: 10rem 0 4rem 0;
+    padding: 10rem 0 6rem 0;
   }
   header h1 {
     margin-top: 3.5rem;

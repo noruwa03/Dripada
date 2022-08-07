@@ -24,7 +24,7 @@
       </div>
     </header>
 
-    <div class="our-mission">
+    <div id="about-us" class="our-mission">
       <div class="container-fluid">
         <div class="row align-items-center justify-content-between">
           <div class="col-lg-6 col-sm-7 col-12">
