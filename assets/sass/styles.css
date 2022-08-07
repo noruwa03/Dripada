@@ -125,6 +125,10 @@ nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown {
           align-items: center;
 }
 
+nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown.active {
+  display: none;
+}
+
 nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown li {
   padding: 0.7rem 0;
 }
@@ -134,6 +138,32 @@ nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown li:hover a {
 }
 
 nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown li a {
+  color: #0B0706;
+}
+
+nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown2 {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown2.active {
+  display: none;
+}
+
+nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown2 li {
+  padding: 0.7rem 0;
+}
+
+nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown2 li:hover a {
+  color: #3131c6;
+}
+
+nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown2 li a {
   color: #0B0706;
 }
 
@@ -149,6 +179,21 @@ nav .nav-item-container .nav-item-list .nav-item ul.dropdown {
 }
 
 nav .nav-item-container .nav-item-list .nav-item ul.dropdown li {
+  display: block;
+}
+
+nav .nav-item-container .nav-item-list .nav-item ul.dropdown2 {
+  width: 20rem;
+  height: 10rem;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.1) 0px 7px 26px;
+          box-shadow: rgba(149, 157, 165, 0.1) 0px 7px 26px;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+nav .nav-item-container .nav-item-list .nav-item ul.dropdown2 li {
   display: block;
 }
 
@@ -324,9 +369,38 @@ header .row-item .beta-signup:hover {
           align-items: center;
 }
 
+.promote-engage .card-container .engage-card {
+  cursor: pointer;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.promote-engage .card-container .engage-card:nth-child(1):hover {
+  -webkit-transform: translateY(-2rem);
+          transform: translateY(-2rem);
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
 .promote-engage .card-container .engage-card:nth-child(2) {
   -webkit-transform: translateY(-9rem);
           transform: translateY(-9rem);
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.promote-engage .card-container .engage-card:nth-child(2):hover {
+  -webkit-transform: translateY(0.6rem);
+          transform: translateY(0.6rem);
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.promote-engage .card-container .engage-card:nth-child(3):hover {
+  -webkit-transform: translateY(-2rem);
+          transform: translateY(-2rem);
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
 
 /**********************/
@@ -359,6 +433,16 @@ header .row-item .beta-signup:hover {
   padding: 1.4rem 2rem;
   margin: 1rem 0.5rem;
   border-radius: 5rem;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.security .border:hover {
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.5) 0px 7px 26px;
+          box-shadow: rgba(149, 157, 165, 0.5) 0px 7px 26px;
 }
 
 .security .border .row-item {
@@ -439,6 +523,36 @@ header .row-item .beta-signup:hover {
   width: 100%;
 }
 
+@-webkit-keyframes jump {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes jump {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
 .multiple-ways-to-earn .container-row .card-one,
 .multiple-ways-to-earn .container-row .card-two {
   background: #fff;
@@ -447,6 +561,13 @@ header .row-item .beta-signup:hover {
   -webkit-box-shadow: rgba(149, 157, 165, 0.5) 0px 7px 26px;
           box-shadow: rgba(149, 157, 165, 0.5) 0px 7px 26px;
   position: relative;
+  cursor: pointer;
+}
+
+.multiple-ways-to-earn .container-row .card-one:hover,
+.multiple-ways-to-earn .container-row .card-two:hover {
+  -webkit-animation: jump 0.85s linear infinite alternate;
+          animation: jump 0.85s linear infinite alternate;
 }
 
 .multiple-ways-to-earn .container-row .card-one .row-item,
@@ -1049,6 +1170,14 @@ footer p {
   .promote-engage .card-container .engage-card:nth-child(2) {
     -webkit-transform: translateY(0rem);
             transform: translateY(0rem);
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+  }
+  .promote-engage .card-container .engage-card:nth-child(2):hover {
+    -webkit-transform: translateY(-2rem);
+            transform: translateY(-2rem);
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
   }
   .security h2 {
     font-size: 2em;
@@ -1158,6 +1287,12 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
+  nav {
+    padding: 1rem 1rem;
+  }
+  nav .nav-item-container .logo-image img {
+    width: 9.7rem;
+  }
   header {
     padding: 12rem 0 5rem 0;
   }
@@ -1397,7 +1532,7 @@ footer p {
 
 @media screen and (max-width: 480px) {
   nav {
-    padding: 1.4rem 1rem;
+    padding: 1rem 1rem;
   }
   nav .nav-item-container .logo-image img {
     width: 9.7rem;
@@ -1406,15 +1541,15 @@ footer p {
     padding: 10rem 0 4rem 0;
   }
   header h1 {
-    margin-top: 2rem;
+    margin-top: 3.5rem;
     font-size: 2em;
   }
   header h2 {
     font-size: 1.2em;
-    margin: 1.2rem 0;
+    margin: 1.7rem 0;
   }
   header .row-item {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   header .row-item .learn-more {
     padding: 1rem 2rem;

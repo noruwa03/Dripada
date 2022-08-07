@@ -1,4 +1,15 @@
 @media screen and(max-width: 768px) {
+  nav {
+    padding: 1rem 1rem;
+    .nav-item-container {
+      .logo-image {
+        img {
+          width: 9.7rem;
+        }
+      }
+    }
+  }
+
   header {
     padding: 12rem 0 5rem 0;
 

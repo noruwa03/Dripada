@@ -15,7 +15,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link"
+            <a class="nav-link" @click="closeDropdown"
               >Products
               <span><img src="@/assets/icons/dropdown.svg" alt="" /></span>
             </a>
@@ -26,11 +26,11 @@
             </ul>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link"
+            <a class="nav-link" @click="closeDropdown2"
               >Company
               <span><img src="@/assets/icons/dropdown.svg" alt="" /></span
-            ></NuxtLink>
-            <ul class="dropdown">
+            ></a>
+            <ul class="dropdown2">
               <li @click="removeNavbar"><a href="">About Us</a></li>
               <li @click="removeNavbar"><a href="">Career</a></li>
               <li @click="removeNavbar"><a href="">Press</a></li>
@@ -71,6 +71,17 @@ const removeNavbar = () => {
   navItem.classList.toggle("active");
   menu.classList.toggle("open");
 };
+
+const closeDropdown = () => {
+  const dropdown = document.querySelector(".dropdown");
+  dropdown.classList.toggle("active");
+};
+
+const closeDropdown2 = () => {
+  const dropdown2 = document.querySelector(".dropdown2");
+  dropdown2.classList.toggle("active");
+};
+
 </script>
 
 <style>

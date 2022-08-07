@@ -41,11 +41,6 @@ Table Of Contents:
 
   a {
     text-decoration: none;
-
-    // &:hover {
-    //   text-decoration: none;
-    //   color: #000;
-    // }
   }
 }
 
@@ -86,6 +81,33 @@ nav {
               justify-content: center;
               align-items: center;
 
+              &.active {
+                display: none;
+              }
+
+              li {
+                padding: 0.7rem 0;
+
+                &:hover {
+                  a {
+                    color: #3131c6;
+                  }
+                }
+                a {
+                  color: $black;
+                }
+              }
+            }
+
+            &.dropdown2 {
+              display: block;
+              justify-content: center;
+              align-items: center;
+
+              &.active {
+                display: none;
+              }
+
               li {
                 padding: 0.7rem 0;
 
@@ -104,6 +126,21 @@ nav {
 
         ul {
           &.dropdown {
+            width: 20rem;
+            height: 10rem;
+            background-color: $white;
+            box-shadow: rgba(149, 157, 165, 0.1) 0px 7px 26px;
+
+            position: absolute;
+            z-index: 999;
+            display: none;
+
+            li {
+              display: block;
+            }
+          }
+
+          &.dropdown2 {
             width: 20rem;
             height: 10rem;
             background-color: $white;
@@ -255,8 +292,32 @@ header {
     @include flexItem(row, space-around);
     align-items: center;
 
+    .engage-card {
+      cursor: pointer;
+      transition: 1s ease;
+    }
+
+    .engage-card:nth-child(1) {
+      &:hover {
+        transform: translateY(-2rem);
+        transition: 1s ease;
+      }
+    }
+
     .engage-card:nth-child(2) {
       transform: translateY(-9rem);
+      transition: 1s ease;
+      &:hover {
+        transform: translateY(0.6rem);
+        transition: 1s ease;
+      }
+    }
+
+    .engage-card:nth-child(3) {
+      &:hover {
+        transform: translateY(-2rem);
+        transition: 1s ease;
+      }
     }
   }
 }
@@ -289,6 +350,13 @@ header {
     padding: 1.4rem 2rem;
     margin: 1rem 0.5rem;
     border-radius: 5rem;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+
+    &:hover {
+      transition: 0.3s ease-in;
+      box-shadow: rgba(149, 157, 165, 0.5) 0px 7px 26px;
+    }
 
     .row-item {
       @include flexItem(row, flex-start);
@@ -336,14 +404,30 @@ header {
     height: 35rem;
     width: 100%;
 
+    @keyframes jump {
+      0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    }
+
     .card-one,
     .card-two {
       background: $white;
       height: 25rem;
       width: 48%;
       box-shadow: rgba(149, 157, 165, 0.5) 0px 7px 26px;
-
       position: relative;
+      cursor: pointer;
+
+      &:hover {
+        animation: jump 0.85s linear infinite alternate;
+      }
 
       .row-item {
         @include flexItem(row, space-between);

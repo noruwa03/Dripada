@@ -294,6 +294,12 @@
 
       .engage-card:nth-child(2) {
         transform: translateY(0rem);
+
+        transition: 1s ease;
+        &:hover {
+          transform: translateY(-2rem);
+          transition: 1s ease;
+        }
       }
     }
   }

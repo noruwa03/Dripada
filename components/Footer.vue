@@ -31,7 +31,6 @@
             <div class="social-media">
               <a href=""><img src="@/assets/icons/twitter.svg" alt="" /></a>
               <a href=""><img src="@/assets/icons/instagram.svg" alt="" /></a>
-              <a href=""><img src="@/assets/icons/linkedIn.svg" alt="" /></a>
               <a href=""><img src="@/assets/icons/telegram.svg" alt="" /></a>
               <a href=""><img src="@/assets/icons/email.svg" alt="" /></a>
             </div>
