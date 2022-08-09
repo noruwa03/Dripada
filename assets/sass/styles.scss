@@ -100,7 +100,7 @@ nav {
               }
             }
 
-            &.dropdown2 {
+            &.dropdown-two {
               display: block;
               justify-content: center;
               align-items: center;
@@ -142,7 +142,7 @@ nav {
             }
           }
 
-          &.dropdown2 {
+          &.dropdown-two {
             width: 20rem;
             height: 10rem;
             background-color: $white;
@@ -161,6 +161,12 @@ nav {
         .nav-link {
           font-weight: 600;
           cursor: pointer;
+          transition: 0.3s ease;
+
+          &:hover {
+            color: #3131c6;
+            transition: 0.3s ease;
+          }
 
           span {
             margin-left: 0.5rem;

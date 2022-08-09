@@ -142,7 +142,7 @@ nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown li a {
   cursor: pointer;
 }
 
-nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown2 {
+nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown-two {
   display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -152,19 +152,19 @@ nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown2 {
           align-items: center;
 }
 
-nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown2.active {
+nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown-two.active {
   display: none;
 }
 
-nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown2 li {
+nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown-two li {
   padding: 0.7rem 0;
 }
 
-nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown2 li:hover a {
+nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown-two li:hover a {
   color: #3131c6;
 }
 
-nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown2 li a {
+nav .nav-item-container .nav-item-list .nav-item:hover ul.dropdown-two li a {
   color: #0B0706;
   cursor: pointer;
 }
@@ -184,7 +184,7 @@ nav .nav-item-container .nav-item-list .nav-item ul.dropdown li {
   display: block;
 }
 
-nav .nav-item-container .nav-item-list .nav-item ul.dropdown2 {
+nav .nav-item-container .nav-item-list .nav-item ul.dropdown-two {
   width: 20rem;
   height: 10rem;
   background-color: #fff;
@@ -195,13 +195,21 @@ nav .nav-item-container .nav-item-list .nav-item ul.dropdown2 {
   display: none;
 }
 
-nav .nav-item-container .nav-item-list .nav-item ul.dropdown2 li {
+nav .nav-item-container .nav-item-list .nav-item ul.dropdown-two li {
   display: block;
 }
 
 nav .nav-item-container .nav-item-list .nav-item .nav-link {
   font-weight: 600;
   cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+nav .nav-item-container .nav-item-list .nav-item .nav-link:hover {
+  color: #3131c6;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 nav .nav-item-container .nav-item-list .nav-item .nav-link span {

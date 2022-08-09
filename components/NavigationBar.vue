@@ -49,14 +49,14 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" @click="closeDropdown2"
+            <a class="nav-link" @click="closeDropdownTwo"
               >Company
               <span
                 ><img
                   src="@/assets/icons/dropdown.svg"
                   alt="Dropdown Icon" /></span
             ></a>
-            <ul class="dropdown2">
+            <ul class="dropdown-two">
               <li @click="removeNavbar"><a @click="aboutUs">About Us</a></li>
               <li @click="removeNavbar">
                 <NuxtLink
@@ -126,8 +126,8 @@ const closeDropdown = () => {
   dropdown.classList.toggle("active");
 };
 
-const closeDropdown2 = () => {
-  const dropdown2 = document.querySelector(".dropdown2");
+const closeDropdownTwo = () => {
+  const dropdown2 = document.querySelector(".dropdown-two");
   dropdown2.classList.toggle("active");
 };
 
