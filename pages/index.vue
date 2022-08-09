@@ -20,8 +20,18 @@
             <h1 class="text-center">Welcome To Dripada</h1>
             <h2 class="text-center">Complete Tasks and Earn ADA</h2>
             <div class="row-item">
-              <a href="" class="learn-more">Learn more</a>
-              <a href="" class="start-earning">Start Earning</a>
+              <NuxtLink
+                class="learn-more"
+                to="https://t.me/dripadacommunity"
+                target="_blank"
+                >Learn more</NuxtLink
+              >
+              <NuxtLink
+                class="start-earning"
+                to="https://resources.dripada.com/what-is-dripada/how-does-it-work"
+                target="_blank"
+                >Start Earning</NuxtLink
+              >
             </div>
           </div>
         </div>

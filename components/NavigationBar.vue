@@ -80,12 +80,17 @@
             <NuxtLink
               class="nav-link"
               to="https://resources.dripada.com/tokenomics"
+              target="_blank"
               >DRP Token</NuxtLink
             >
           </li>
         </ul>
-
-        <a href="" class="nav-bar-start-earning">Start Earning</a>
+        <NuxtLink
+          class="nav-bar-start-earning"
+          to="https://resources.dripada.com/what-is-dripada/how-does-it-work"
+          target="_blank"
+          >Start Earning</NuxtLink
+        >
         <div @click="menuHandler" class="menu">
           <span></span>
           <span></span>
