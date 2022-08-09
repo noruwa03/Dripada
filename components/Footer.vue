@@ -36,7 +36,13 @@
             >
               What is DripAda
             </NuxtLink>
-            <NuxtLink class="footer-link"> How it works </NuxtLink>
+            <NuxtLink
+              class="footer-link"
+              to="https://resources.dripada.com/what-is-dripada/how-does-it-work"
+              target="_blank"
+            >
+              How it works
+            </NuxtLink>
             <NuxtLink class="footer-link"> DOCS </NuxtLink>
           </div>
           <div class="col-lg-2 col-sm-3 col-12">
