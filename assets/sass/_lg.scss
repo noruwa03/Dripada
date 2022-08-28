@@ -55,9 +55,32 @@
           &:hover {
             ul {
               &.dropdown {
-                display: block;
-                justify-content: center;
-                align-items: center;
+                display: none;
+
+                &.active {
+                  display: block;
+                }
+
+                li {
+                  padding: 0.7rem 0;
+
+                  &:hover {
+                    a {
+                      color: #3131c6;
+                    }
+                  }
+                  a {
+                    color: $black;
+                  }
+                }
+              }
+
+              &.dropdown-two {
+                display: none;
+
+                &.active {
+                  display: block;
+                }
 
                 li {
                   padding: 0.7rem 0;
